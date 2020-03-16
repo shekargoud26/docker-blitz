@@ -23,8 +23,6 @@ services:
     - redis
   redis:
     image: redis
-volumes:
-  logvolume01: {}
 ```
 
 Understanding the `docker-compose.yml` file
