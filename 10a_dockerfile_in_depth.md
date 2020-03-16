@@ -5,7 +5,7 @@ Here we discuss some best practices for writing *Dockerfiles*.
 ## RUN
 
 - Split long or complex `RUN` statements on multiple lines separated with backslashes to make your `Dockerfile` more readable, understandable, and maintainable.
-- Each **RUN** instructions will execute the command on the top writable layer of the container, then commit the container as a new image.
+- Each **RUN** instructions will execute the command on the top writable layer of the container, then commit the modified container as a new image.
 - The new image is used for the next step in the *Dockerfile*. So each **RUN** instruction will create a new image layer. 
 - It is recomended to chain the **RUN** instructions in the *Dockerfile* to reduce the number of image layers it creates
 

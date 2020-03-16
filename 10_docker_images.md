@@ -6,7 +6,7 @@
 -  When we create a container from an image we create a new *writable layer* where all the read/write or modify actions happen in this *writable layer* . 
 - When the container is stopped this *writable layer* is discarded.
 
-
+![image-20200316162150359](/home/shekar-android/Documents/0_My_Projects/docker-blitz/images/10_docker_image_layers.png)
 
 ## Building docker images
 
