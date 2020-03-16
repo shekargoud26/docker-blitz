@@ -4,7 +4,7 @@ Notes for learning docker.
 reference: [Docker Crash Course for busy DevOps and Developers](https://www.udemy.com/course/docker-tutorial-for-devops-run-docker-containers/)
 
 # Pending 
-- [ ] Docker networking
+- [x] Docker networking
 - [ ] Docker swarm
 - [ ] Kubernates
 
